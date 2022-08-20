@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+   a:
+     build: ./A
+     container_name: TCP_A
+   b:
+     build: ./B
+     container_name: TCP_B
