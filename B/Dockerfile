@@ -11,5 +11,5 @@ RUN npm install
 # アプリケーションコードをコンテナにコピー
 COPY . .
 
-EXPOSE 8001
+EXPOSE 3001
 CMD [ "node", "app" ]
